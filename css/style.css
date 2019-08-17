@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #ebebeb
+}
+
+header{
+    padding: 20px;
+    background: palevioletred;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+.container{
+    margin: auto;
+    max-width: 1024px;
+}
+
+.main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fetched {
+    width: 50%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    outline: none
+}
+
+.joke-list {
+    width: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ul {
+    padding: 20px;
+    list-style-type: none;
+}
+li {
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 20px;
+    border-style: solid ;
+}
